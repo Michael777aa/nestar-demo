@@ -3,6 +3,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { light } from "../scss/MaterialTheme";
 import { useState } from "react";
+import "../scss/app.scss";
 export default function App({ Component, pageProps }: AppProps) {
   // @ts-ignore
   const [theme, setTheme] = useState(createTheme(light));
@@ -13,5 +14,3 @@ export default function App({ Component, pageProps }: AppProps) {
     </ThemeProvider>
   );
 }
-// dshfsjdj
-console.log("jsdfjljs");
