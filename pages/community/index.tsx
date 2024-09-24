@@ -1,7 +1,7 @@
 "use client";
 import { NextPage } from "next";
 import { useState } from "react";
-import withLayoutBasic from "../libs/components/LayoutBasic";
+import withLayoutBasic from "../libs/components/layout/LayoutBasic";
 
 const Community: NextPage = () => {
   const [title, setTitle] = useState<String>("Hello");
