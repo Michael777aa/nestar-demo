@@ -2,6 +2,8 @@
 /** IMPORTS */
 @import "../variables.scss";
 @import "/scss/pc/homepage/homepage.scss";
+@import "/scss/pc/property/detail.scss";
+@import "/scss/pc/property/property.scss";
 #pc-wrap {
   //    TOP HEADER START
 
@@ -94,7 +96,7 @@
 
   //    HEADER START
 
-  #header-main {
+  .header-main {
     position: relative;
     width: 100%;
     height: 860px;
